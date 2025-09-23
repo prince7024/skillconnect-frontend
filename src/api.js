@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000/api",
+  baseURL:https:"//skillconnect-backend-3e6v.onrender.com",
 });
 
 API.interceptors.request.use((config) => {

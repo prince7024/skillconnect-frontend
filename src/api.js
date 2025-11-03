@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://skillconnect-backend-3e6v.onrender.com", 
+  baseURL: "https://skillconnect-backend-3e6v.onrender.com/api", 
 });
 
 API.interceptors.request.use((config) => {
